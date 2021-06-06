@@ -1,5 +1,10 @@
 const Add = () => {
-  return <></>;
+  return (
+    <>
+      <input placeholder="Add ToDo" />
+      <button>Add</button>
+    </>
+  );
 };
 
 export default Add;
