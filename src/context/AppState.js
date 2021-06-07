@@ -9,7 +9,7 @@ const AppState = (props) => {
     setChecked(event.target.checked);
   };
   return (
-    <AppContext.Provider value={{ checked, setChecked, handleChange }}>
+    <AppContext.Provider value={{ checked, handleChange }}>
       {props.children}
     </AppContext.Provider>
   );
