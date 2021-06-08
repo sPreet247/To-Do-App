@@ -5,12 +5,22 @@ const Header = () => {
     align-items: center;
     justify-content: center;
   `;
+
+  const All = styled.div`
+    margin: 1rem;
+  `;
+  const Active = styled.div`
+    margin: 1rem;
+  `;
+  const Completed = styled.div`
+    margin: 1rem;
+  `;
   return (
     <>
       <Wrapper>
-        <div>All</div>
-        <div>Active</div>
-        <div>Completed</div>
+        <All>All</All>
+        <Active>Active</Active>
+        <Completed>Completed</Completed>
       </Wrapper>
     </>
   );
