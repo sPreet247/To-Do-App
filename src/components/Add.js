@@ -6,6 +6,7 @@ const Add = () => {
     height: 3rem;
     border-radius: 1rem;
     border: 2px solid #d3d3d3;
+    outline: none;
   `;
   const Button = styled.button`
     background-color: #2f80ed;
@@ -17,7 +18,7 @@ const Add = () => {
   `;
   return (
     <>
-      <Input placeholder="Add ToDo" />
+      <Input placeholder=" Add ToDo" />
       <Button>Add</Button>
     </>
   );
