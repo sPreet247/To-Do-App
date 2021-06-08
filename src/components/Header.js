@@ -1,9 +1,17 @@
+import styled from 'styled-components';
 const Header = () => {
+  const Wrapper = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  `;
   return (
     <>
-      <h2>All</h2>
-      <h2>Active</h2>
-      <h2>Completed</h2>
+      <Wrapper>
+        <div>All</div>
+        <div>Active</div>
+        <div>Completed</div>
+      </Wrapper>
     </>
   );
 };

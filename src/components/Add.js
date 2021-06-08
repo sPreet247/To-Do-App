@@ -15,6 +15,7 @@ const Add = () => {
     height: 3.5rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
   `;
   return (
     <>
