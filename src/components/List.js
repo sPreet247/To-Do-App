@@ -2,9 +2,12 @@ import styled from 'styled-components';
 import AppContext from 'context/AppContext';
 import Checkbox from '@material-ui/core/Checkbox';
 import { useContext } from 'react';
+
 const List = () => {
   const { checked, handleChange } = useContext(AppContext);
+
   const Wrapper = styled.ul``;
+
   return (
     <>
       <Wrapper>
