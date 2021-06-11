@@ -2,11 +2,20 @@ import styled from 'styled-components';
 import AppContext from 'context/AppContext';
 import Checkbox from '@material-ui/core/Checkbox';
 import { useContext } from 'react';
+import { MdDelete } from 'react-icons/md';
 
 const List = () => {
   const { checked, handleChange } = useContext(AppContext);
 
-  const Wrapper = styled.ul``;
+  const Wrapper = styled.ul`
+    /* display: flex; */
+    width: 20px;
+
+    position: relative;
+    left: 200px;
+
+    vertical-align: middle;
+  `;
 
   return (
     <>
@@ -19,6 +28,7 @@ const List = () => {
             inputProps={{ 'aria-label': 'primary checkbox' }}
           />
           Do code
+          <MdDelete />
         </li>
         <li>
           <Checkbox
@@ -28,6 +38,7 @@ const List = () => {
             inputProps={{ 'aria-label': 'primary checkbox' }}
           />
           Buy Groceries
+          <MdDelete />
         </li>
         <li>
           <Checkbox
@@ -37,6 +48,7 @@ const List = () => {
             inputProps={{ 'aria-label': 'primary checkbox' }}
           />
           Car Wash
+          <MdDelete />
         </li>
       </Wrapper>
     </>
