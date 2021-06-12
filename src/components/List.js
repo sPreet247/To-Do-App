@@ -16,11 +16,16 @@ const List = () => {
 
     vertical-align: middle;
   `;
+  const Li = styled.li`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `;
 
   return (
     <>
       <Wrapper>
-        <li>
+        <Li>
           <Checkbox
             checked={checked}
             onChange={handleChange}
@@ -29,7 +34,7 @@ const List = () => {
           />
           Do code
           <MdDelete />
-        </li>
+        </Li>
         <li>
           <Checkbox
             checked={checked}
