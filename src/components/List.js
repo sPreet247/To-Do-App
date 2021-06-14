@@ -13,8 +13,6 @@ const List = () => {
 
     position: relative;
     left: 200px;
-
-    vertical-align: middle;
   `;
 
   return (
