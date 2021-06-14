@@ -8,17 +8,20 @@ const List = () => {
   const { checked, handleChange } = useContext(AppContext);
 
   const Wrapper = styled.ul`
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     width: 20px;
 
     position: relative;
     left: 200px;
   `;
 
+  const ListItems = styled.li``;
+
   return (
     <>
       <Wrapper>
-        <li>
+        <ListItems>
           <Checkbox
             checked={checked}
             onChange={handleChange}
@@ -27,7 +30,7 @@ const List = () => {
           />
           Do code
           <MdDelete />
-        </li>
+        </ListItems>
         <li>
           <Checkbox
             checked={checked}
