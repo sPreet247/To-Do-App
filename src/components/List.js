@@ -10,13 +10,19 @@ const List = () => {
   const Wrapper = styled.ul`
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 20px;
 
     position: relative;
     left: 200px;
   `;
 
-  const ListItems = styled.li``;
+  const ListItems = styled.li`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  `;
 
   return (
     <>
@@ -31,7 +37,7 @@ const List = () => {
           Do code
           <MdDelete />
         </ListItems>
-        <li>
+        <ListItems>
           <Checkbox
             checked={checked}
             color="primary"
@@ -40,8 +46,8 @@ const List = () => {
           />
           Buy Groceries
           <MdDelete />
-        </li>
-        <li>
+        </ListItems>
+        <ListItems>
           <Checkbox
             checked={checked}
             onChange={handleChange}
@@ -50,7 +56,7 @@ const List = () => {
           />
           Car Wash
           <MdDelete />
-        </li>
+        </ListItems>
       </Wrapper>
     </>
   );
