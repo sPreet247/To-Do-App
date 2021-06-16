@@ -35,7 +35,7 @@ const List = () => {
             inputProps={{ 'aria-label': 'primary checkbox' }}
           />
           Do code
-          <MdDelete />
+          <MdDelete style={{ fontSize: 50 }} />
         </ListItems>
         <ListItems>
           <Checkbox
@@ -45,7 +45,7 @@ const List = () => {
             inputProps={{ 'aria-label': 'primary checkbox' }}
           />
           Buy Groceries
-          <MdDelete />
+          <MdDelete style={{ fontSize: 50 }} />
         </ListItems>
         <ListItems>
           <Checkbox
@@ -55,7 +55,7 @@ const List = () => {
             inputProps={{ 'aria-label': 'primary checkbox' }}
           />
           Car Wash
-          <MdDelete />
+          <MdDelete style={{ fontSize: 50 }} />
         </ListItems>
       </Wrapper>
     </>
