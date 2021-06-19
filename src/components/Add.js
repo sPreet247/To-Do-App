@@ -1,6 +1,13 @@
 import styled from 'styled-components';
 
 const Add = () => {
+  const Wrapper = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 1rem;
+  `;
   const Input = styled.input`
     width: 30rem;
     height: 3rem;
@@ -19,8 +26,10 @@ const Add = () => {
   `;
   return (
     <>
-      <Input placeholder=" Add ToDo" />
-      <Button>Add</Button>
+      <Wrapper>
+        <Input placeholder=" Add ToDo" />
+        <Button>Add</Button>
+      </Wrapper>
     </>
   );
 };
