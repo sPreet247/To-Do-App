@@ -14,6 +14,7 @@ const Add = () => {
     border-radius: 1rem;
     border: 2px solid #d3d3d3;
     outline: none;
+    padding: 6px 10px 6px 20px;
   `;
   const Button = styled.button`
     background-color: #2f80ed;
