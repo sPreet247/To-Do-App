@@ -6,12 +6,12 @@ const Add = () => {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
   `;
   const Input = styled.input`
     width: 30rem;
     height: 3rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     border: 2px solid #d3d3d3;
     outline: none;
     padding: 6px 10px 6px 20px;
@@ -20,10 +20,11 @@ const Add = () => {
     background-color: #2f80ed;
     color: white;
     width: 7rem;
-    height: 3.5rem;
-    border-radius: 1rem;
+    height: 2.75rem;
+    border-radius: 0.5rem;
     border: none;
     cursor: pointer;
+    margin-left: 0.2rem;
   `;
   return (
     <>
