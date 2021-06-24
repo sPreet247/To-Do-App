@@ -12,10 +12,9 @@ const List = () => {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 20px;
-
-    position: relative;
-    left: 200px;
+    width: 50%;
+    margin-top: 1rem;
+    margin: 0 auto;
   `;
 
   const ListItems = styled.li`
@@ -35,7 +34,7 @@ const List = () => {
             inputProps={{ 'aria-label': 'primary checkbox' }}
           />
           Do code
-          <MdDelete style={{ fontSize: 40 }} />
+          <MdDelete style={{ fontSize: 30 }} />
         </ListItems>
         <ListItems>
           <Checkbox
@@ -45,7 +44,7 @@ const List = () => {
             inputProps={{ 'aria-label': 'primary checkbox' }}
           />
           Buy Groceries
-          <MdDelete style={{ fontSize: 40 }} />
+          <MdDelete style={{ fontSize: 30 }} />
         </ListItems>
         <ListItems>
           <Checkbox
@@ -55,7 +54,7 @@ const List = () => {
             inputProps={{ 'aria-label': 'primary checkbox' }}
           />
           Car Wash
-          <MdDelete style={{ fontSize: 40 }} />
+          <MdDelete style={{ fontSize: 30 }} />
         </ListItems>
       </Wrapper>
     </>
