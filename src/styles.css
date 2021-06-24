@@ -24,3 +24,12 @@ body {
 ul {
   list-style-type: none;
 }
+
+input[type='checkbox'] {
+  width: 20px;
+  background-color: blue;
+
+  position: relative;
+
+  vertical-align: middle;
+}

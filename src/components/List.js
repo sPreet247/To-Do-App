@@ -1,12 +1,8 @@
 import styled from 'styled-components';
-import AppContext from 'context/AppContext';
-import Checkbox from '@material-ui/core/Checkbox';
-import { useContext } from 'react';
+import '../styles.css';
 import { MdDelete } from 'react-icons/md';
 
 const List = () => {
-  const { checked, handleChange } = useContext(AppContext);
-
   const Wrapper = styled.ul`
     display: flex;
     flex-direction: column;
@@ -20,39 +16,23 @@ const List = () => {
   const ListItems = styled.li`
     display: flex;
     align-items: center;
-    justify-content: center;
   `;
 
   return (
     <>
       <Wrapper>
         <ListItems>
-          <Checkbox
-            checked={checked}
-            onChange={handleChange}
-            color="primary"
-            inputProps={{ 'aria-label': 'primary checkbox' }}
-          />
+          <input type="checkbox" />
           Do code
           <MdDelete style={{ fontSize: 30 }} />
         </ListItems>
         <ListItems>
-          <Checkbox
-            checked={checked}
-            color="primary"
-            onChange={handleChange}
-            inputProps={{ 'aria-label': 'primary checkbox' }}
-          />
+          <input type="checkbox" />
           Buy Groceries
           <MdDelete style={{ fontSize: 30 }} />
         </ListItems>
         <ListItems>
-          <Checkbox
-            checked={checked}
-            onChange={handleChange}
-            color="primary"
-            inputProps={{ 'aria-label': 'primary checkbox' }}
-          />
+          <input type="checkbox" />
           Car Wash
           <MdDelete style={{ fontSize: 30 }} />
         </ListItems>

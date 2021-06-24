@@ -6,7 +6,7 @@ const Add = () => {
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* margin: 0 1rem; */
+    margin: 0 1rem;
   `;
   const Input = styled.input`
     width: 30rem;
@@ -29,7 +29,7 @@ const Add = () => {
   return (
     <>
       <Wrapper>
-        <Input placeholder=" Add ToDo" />
+        <Input placeholder=" Add To Do" />
         <Button>Add</Button>
       </Wrapper>
     </>
