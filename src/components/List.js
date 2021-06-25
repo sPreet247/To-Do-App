@@ -22,8 +22,10 @@ const List = () => {
     <>
       <Wrapper>
         <ListItems>
-          <input type="checkbox" />
-          Do code
+          <label>
+            <input type="checkbox" />
+            Do code
+          </label>
           <MdDelete style={{ fontSize: 30 }} />
         </ListItems>
         <ListItems>
