@@ -18,14 +18,16 @@ const List = () => {
     align-items: center;
   `;
 
+  const Label = styled.label``;
+
   return (
     <>
       <Wrapper>
         <ListItems>
-          <label>
+          <Label>
             <input type="checkbox" />
             Do code
-          </label>
+          </Label>
           <MdDelete style={{ fontSize: 30 }} />
         </ListItems>
         <ListItems>
