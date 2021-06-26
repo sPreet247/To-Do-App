@@ -18,7 +18,9 @@ const List = () => {
     align-items: center;
   `;
 
-  const Label = styled.label``;
+  const Label = styled.label`
+    margin-right: 2rem;
+  `;
 
   return (
     <>
@@ -31,13 +33,17 @@ const List = () => {
           <MdDelete style={{ fontSize: 30 }} />
         </ListItems>
         <ListItems>
-          <input type="checkbox" />
-          Buy Groceries
+          <Label>
+            <input type="checkbox" />
+            Buy Groceries
+          </Label>
           <MdDelete style={{ fontSize: 30 }} />
         </ListItems>
         <ListItems>
-          <input type="checkbox" />
-          Car Wash
+          <Label>
+            <input type="checkbox" />
+            Car Wash
+          </Label>
           <MdDelete style={{ fontSize: 30 }} />
         </ListItems>
       </Wrapper>
