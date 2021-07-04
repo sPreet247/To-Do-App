@@ -19,7 +19,8 @@ const List = () => {
   `;
 
   const Label = styled.label`
-    margin-right: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
   `;
 
   return (
