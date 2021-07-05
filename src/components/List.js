@@ -16,14 +16,14 @@ const List = () => {
   const ListItems = styled.li`
     display: flex;
     align-items: center;
-    
   `;
 
   const Label = styled.label`
     margin-right: 1.5rem;
     margin-left: 1rem;
+    text-align: left;
+    vertical-align: middle;
   `;
-
   return (
     <>
       <Wrapper>
