@@ -16,6 +16,7 @@ const List = () => {
   const ListItems = styled.li`
     display: flex;
     align-items: center;
+    justify-items: center;
   `;
 
   const Label = styled.label`
