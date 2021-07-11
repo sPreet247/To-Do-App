@@ -23,6 +23,7 @@ const List = () => {
     margin-right: 1.5rem;
     margin-left: 1rem;
     text-align: left;
+    vertical-align: medium;
   `;
   return (
     <>
